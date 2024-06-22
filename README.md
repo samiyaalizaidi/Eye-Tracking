@@ -41,3 +41,24 @@ This project focuses on exploring the potential of eye-tracking technology combi
    ```sh
    git clone https://github.com/yourusername/ASD-Eye-Tracking.git
    cd ASD-Eye-Tracking
+   ```
+
+2. Create and activate a virtual environment:
+   ```sh
+   python -m venv venv
+   source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+   ```
+
+3. Install the required libraries:
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+## Contributing
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Added some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
